@@ -1,0 +1,104 @@
+.contacts-form {
+  margin: 0 auto;
+  width: 400px;
+  background: #9C9C9C;
+  border: 2px solid #626262;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+h2 {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+hr {
+  margin: 0;
+  background-color: #C4C4C4;
+  color: #C4C4C4; 
+  border: none; 
+  height: 1px;
+}
+
+.contacts-form p {
+  padding: 0 20px;
+  margin: 20px 0 0 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contacts-form .contacts-form__half {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.contacts-form input[type="text"],
+.contacts-form input[type="email"],
+.contacts-form input[type="password"],
+.contacts-form input[type="number"] {
+  padding: 6px 10px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #9C9C9C;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+input:invalid {
+  border: 1px dashed red;
+}
+
+.contacts-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contacts-form input::-webkit-input-placeholder {
+  color: #CCCCCC;
+}
+.contacts-form input:-moz-placeholder {
+  color: #CCCCCC;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-flex p:first-child {
+  padding-right: 0;
+}
+.container-flex p:last-child {
+  padding-left: 10px;
+}
+
+.button {
+  display: block;
+  position: relative;
+  background: #616161;
+  border: 1px solid #616161;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin: 20px;
+  padding: 8px 12px;
+  font-family: 'Roboto', sans-serif;
+  color: #CCCCCC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.button__grey {
+  background-color: #CCCCCC;
+  border: 1px solid #CCCCCC;
+  color: #616161;
+
+}

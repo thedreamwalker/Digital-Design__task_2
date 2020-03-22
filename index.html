@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>2 task</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form class="contacts-form" action="" method="POST">
+      <h2>Регистрация</h2>
+      <hr>
+      <p>
+      <label for="email-contact">E-mail</label>
+      <input id="email-contact" type="email" name="email" placeholder="example@site.domain" required>
+      </p>
+      <div class="container-flex"><p>
+      <label for="password-contact">Пароль</label>
+      <input id="password-contact" type="password" name="password" placeholder="password" minlength="6" required>
+      </p><p>
+        <label for="password-contact">Повторите пароль</label>
+        <input id="repit-password-contact" type="password" name="repit-password" placeholder="password" minlength="6" required>
+        </p></div>
+        <p>
+      <label for="name-contact">ФИО</label>
+      <input id="name-contact" type="text" name="name" placeholder="Игорев Игорь Игоревич" minlength="2" required></input>
+      </p><p class="contacts-form__half">
+      <label for="age-contact">Возраст</label>
+      <input id="age-contact" type="number" name="age" placeholder="18"></input>
+      </p>
+      <hr>
+      <div class="container-flex">
+        <button class="button" type="submit">Отправить</button>
+        <button class="button button__grey" type="reset">Отмена</button>
+      </div>
+      </form>
+  </body>
+</html>
